@@ -5,6 +5,25 @@
     
 
 }
+:root {
+    --primarycolor:#FB2E86;
+    --mainfont: "Lato", sans-serif;
+
+}
+.btn {
+   
+    background-color:var(--primarycolor);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 2px;
+}
+.btn-second {
+    background-color: #08D15F;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -239,7 +258,7 @@ align-items: flex-end;
 .w-100 {
     width: 100%;
 }
-.botton-rad-orange-30 {
+.btn-rad-orange-30 {
    
     background-color:#f4623a;
     border-radius: 30px;
@@ -249,13 +268,13 @@ align-items: flex-end;
 .border-none {
     border: none;
 }
-.f-row{
+.flex-row{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.f-col {
+.flex-col {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,31 +288,31 @@ align-items: flex-end;
     border: 1px solid #f4623a;
 
 }
-.border-bk-1 {
+.border-blk-1 {
     border: 1px solid black;
 }
-.d-hide {
+.disp-hide {
     display: none;
 }
-.v-hide {
+.visible-hide {
     visibility: hidden;
 }
 .opacity-0{
     opacity: 0;
 }
-.o-f-h{
+.overflow-h{
     overflow: hidden;
 }
-.o-f-s{
+.overflow-s{
     overflow: scroll;
 }
-.o-f-auto {
+.overflow-auto {
     overflow:auto;
 }
-.o-f-x {
+.overflow-x {
     overflow-x: scroll;
 }
-.o-f-y{
+.overflow-y{
     overflow-y: scroll;
 }
 .position-f-top{
