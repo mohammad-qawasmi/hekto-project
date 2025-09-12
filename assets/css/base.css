@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+.pad-top-5 {
+    padding-top: 5px;
+}
+.pad-right-5 {
+    padding-right: 5px;
+}
+.pad-buttom-5 {
+    padding-bottom: 5px;
+}
+.pad-left-5 {
+    padding-left: 5px;
+}
+.pad-top-10 {
+    padding-top: 10px;
+}
+.pad-right-10 {
+    padding-right: 10px;
+}
+.pad-buttom-10 {
+    padding-bottom: 10px;
+}
+.pad-left-10 {
+    padding-left: 10px;
+}
+.pad-top-15 {
+    padding-top: 15px;
+}
+.pad-right-15 {
+    padding-right: 15px;
+}
+.pad-buttom-15 {
+    padding-bottom: 15px;
+}
+.pad-left-15 {
+    padding-left: 15px;
+}
+.pad-top-20 {
+    padding-top: 20px;
+}
+.pad-right-20 {
+    padding-right: 20px;
+}
+.pad-buttom-20 {
+    padding-bottom: 20px;
+}
+.pad-left-20 {
+    padding-left: 20px;
+}
+.mar-top-5 {
+    margin-top: 5px;
+}
+.mar-right-5 {
+    margin-right: 5px;
+
+}
+.mar-buttom-5{
+        margin-bottom: 5px;
+
+}
+.mar-left-5 {
+    margin-left: 5px;
+
+}
+.mar-top-10 {
+    margin-top: 10px;
+}
+.mar-right-10 {
+    margin-right: 10px;
+
+}
+.mar-buttom-10{
+        margin-bottom: 10px;
+
+}
+.mar-left-10 {
+    margin-left: 10px;
+
+}
+.mar-top-15 {
+    margin-top: 15px;
+}
+.mar-right-15 {
+    margin-right: 15px;
+
+}
+.mar-buttom-15{
+        margin-bottom: 15px;
+
+}
+.mar-left-15 {
+    margin-left: 15px;
+
+}
+.mar-top-20 {
+    margin-top: 20px;
+}
+.mar-right-20 {
+    margin-right: 20px;
+
+}
+.mar-buttom-20{
+        margin-bottom: 20px;
+
+}
+.mar-left-20 {
+    margin-left: 20px;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-end {
+    text-align: end;
+}
+.text-start {
+    text-align: start;
+}
+.just-between {
+    justify-content: space-between;
+}
+.just-center {
+    justify-content: center;
+
+}
+.just-left {
+    justify-content: left;
+
+}
+.just-right{
+    justify-content: right;
+}
+.just-around{
+    justify-content: space-around;
+}
+.d-flex
+ {
+    display: flex;
+    width: 100%;
+}
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.padall-5{
+    padding: 5px;
+}
+.padall-10{
+    padding: 10px;
+}
+.padall-15{
+    padding: 15px;
+}
+.padall-20{
+    padding: 20px;
+}
+.padtopbot-5{
+    padding: 5px 0px;
+}
+.padtopbot-10{
+    padding: 10px 0px;
+}
+.padtopbot-15{
+    padding: 15px 0px;
+}
+.padtopbot-20{
+    padding: 20px 0px;
+}
+.padrightleft-5{
+    padding: 0px 5px;
+}
+.padrightleft-10{
+    padding: 0px 10px;
+}
+.padrightleft-15{
+    padding: 0px 15px;
+}
+.padrightleft-20{
+    padding: 0px 20px;
+}
+
+.alighitem-center {
+    align-items: center;
+}
+.alighitem-start {
+align-items: flex-start;
+}
+.alighitem-end {
+align-items: flex-end;
+}
+.w-it {
+    width: fit-content;
+   
+}
+.w-max{
+       width: max-content;
+ 
+}
+.w-min {
+        width: min-content;
+
+}
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
+}
+.botton-rad-orange-30 {
+   
+    background-color:#f4623a;
+    border-radius: 30px;
+    border: none;
+    padding: 30px 30px;
+}
+.border-none {
+    border: none;
+}
+.f-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.f-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.block {
+    display: block;
+}
+.border-or-1 {
+    border: 1px solid #f4623a;
+
+}
+.border-bk-1 {
+    border: 1px solid black;
+}
+.d-hide {
+    display: none;
+}
+.v-hide {
+    visibility: hidden;
+}
+.opacity-0{
+    opacity: 0;
+}
+.o-f-h{
+    overflow: hidden;
+}
+.o-f-s{
+    overflow: scroll;
+}
+.o-f-auto {
+    overflow:auto;
+}
+.o-f-x {
+    overflow-x: scroll;
+}
+.o-f-y{
+    overflow-y: scroll;
+}
+.position-f-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.position-f-zero{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+.position-r{
+    position: relative;
+    height: 100vh;
+}
+.position-s{
+    position: sticky;
+    top: 0px;
+}
+.position-a{
+    position: absolute;
+    top: 0px;
+}
+.postion-b-r-100px {
+    width: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.large-text {
+  font-size: 20px; 
+}
+.italic {
+    font-style: italic;
+}
