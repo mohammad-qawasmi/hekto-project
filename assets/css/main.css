@@ -1,4 +1,45 @@
 body {
- font-family:var(--mainfont);
- 
+  font-family: var(--mainfont);
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+  padding: 57px 0;
+}
+.bar {
+  display: none;
+}
+
+.list a {
+  color: #0d0e43;
+}
+.search form {
+    border: 2px solid #E7E6EF;
+    border-radius: 2px;
+}
+.header .active {
+  color: var(--primarycolor);
+}
+.search form input {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  width: 250px;
+
+}
+.search button {
+  border: none;
+  outline: none;
+   background-color: var(--primarycolor);
+   padding: 8px 13px;
+}
+
+@media screen and (max-width: 1200px) {
+  .list,
+  .search {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
 }
