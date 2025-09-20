@@ -10,6 +10,9 @@
     --mainfont: "Lato", sans-serif;
 
 }
+.text-white {
+    color: white;
+}
 .container{
     width: calc(100% - 330px);
     margin: auto;
@@ -175,11 +178,17 @@ ul {
 .just-around{
     justify-content: space-around;
 }
-.flex
+.d-flex
  {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    
+    
+  
+}
+.d-flex-col {
+   
+    flex-direction: column;
 }
 .gap-5 {
     gap: 5px;
@@ -282,13 +291,7 @@ align-items: flex-end;
     align-items: center;
     flex-wrap: wrap;
 }
-.col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+
 .block {
     display: block;
 }
