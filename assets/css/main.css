@@ -44,6 +44,29 @@ header {
 }
 /* end header */
 
+/*start newsletter*/
+
+.newsletter {
+ background-image: url('assets\img\public\Rectangle.webp');
+  padding: 175px 0;
+  
+}
+.newsletter h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  color:#151875 ;
+  font-size:35px ;
+  font-family: Josefin Sans;
+ 
+}
+.shop-btn {
+  transition: all .5s;
+}
+.shop-btn:hover {
+  background-color: #151875;
+} 
+/*end newsletter*/
+
 /*start main section*/
 .clients {
   padding: 90px 0;
@@ -51,7 +74,7 @@ header {
 }
 .clients .row {
   flex-wrap: nowrap;
-  gap: 15px;
+  gap: 15x;
   overflow-x: auto;
 }
 .clients .logo {
