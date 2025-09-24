@@ -111,7 +111,8 @@ background-color:#00009D ;
 /*start newsletter*/
 
 .newsletter {
- background-image: url('assets\img\public\Rectangle.webp');
+ background-image: url('../img/public/Rectangle.webp');
+ background-size: contain;
   padding: 175px 0;
   
 }
