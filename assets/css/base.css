@@ -38,6 +38,7 @@
 .btn {
    
     background-color:var(--primarycolor);
+    font-family: Josefin Sans;
     outline: none;
     border: none;
     color: white;

@@ -44,7 +44,45 @@ header {
   }
 }
 /* end header */
+/* hero start */
+.hero {
+  background-color: #F2F0FF;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+.hero-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1 0 60%;
+  
+}.hero-content .hero-lamp {
+  position: relative;
+  bottom: 60px;
+  width: 25%;
+}
 
+.hero-img{
+  flex: 1 0 20%;
+}
+.hero-img img {
+  width: 100%;
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 100px;
+  align-items: flex-start;
+}
+.hero-text p {
+  color: var(--primarycolor);
+}
+.hero-text span {
+  color: #8A8FB9;
+}
+/*hero end */
 /*start Featured Products*/
 
 .Featured-Products {
