@@ -80,6 +80,7 @@ height: 250px;
 .product-details {
   gap: 15px;
   padding: 15px;
+  transition: all .6s;
 
 }
 .color {
@@ -92,27 +93,52 @@ height: 250px;
 }
 .color-one{
 background-color:#05E6B7 ;
+
 }
 .color-two {
 background-color:#F701A8 ;
 }
 .color-three{
 background-color:#00009D ;
+transition: all .6s;
 }
 
  .product-details h3 {
    color: var(--primarycolor);
+   transition: all .6s;
  }
  .product-info span {
   color: #151875;
+  transition: all .6s;
  }
+.product-info span.code {
+  transition: ll .6s;
+ }
+ .product:hover .product-details {
+  background-color: #2F1AC4;
+  border-radius: 2px;
+ }
+ .product:hover .product-details h3 {
+  color: #FFFFFF;
+ }
+ .product:hover .color-three {
+  background-color: #FFEAC1;
+ }
+ .product:hover .product-info span{
+color: #FFFFFF;
+ }
+ .product:hover .product-info span.code {
+  color: #FFFFFF;
+  border: 1px solid #000000;
+ }
+
 /*Featured Products*/
 
 /*start newsletter*/
 
 .newsletter {
  background-image: url('../img/public/Rectangle.webp');
- background-size: contain;
+ background-size: cover;
   padding: 175px 0;
   
 }
