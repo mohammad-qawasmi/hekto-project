@@ -234,14 +234,26 @@ color: #FFFFFF;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    transition:all .5s;
 }
-
+.offer {
+  top: 20px;
+  bottom: 50px;
+}
+.sale-feature {
+  position: relative;
+}
 .card img{
-  background-color: #EEEFFB;
+  background-color: #F7F7F7;
   padding: 30px 70px;
   object-fit: cover;
   width: 350px;
   height: 270px;
+  flex: 1 0 300px;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  
  
   
 }
@@ -260,14 +272,17 @@ font-family: Josefin Sans;
   font-size: smaller;
 }
 .latest-item-top {
- 
+
   justify-items: flex-start;
   padding-bottom: 125px;
 }
 
-
+.latest-content:hover .latest-nav .link-1
+{
+    color:red;
+    text-decoration:underline;
+} 
   
-
 /*end latest section */
 
 /*start newsletter*/
