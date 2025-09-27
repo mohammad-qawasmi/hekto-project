@@ -210,6 +210,66 @@ color: #FFFFFF;
  }
 /*Featured Products*/
 
+/*latest section */
+.Leatest-Products {
+  padding: 50px 0;
+}
+.Leatest-Products h2{
+  color: #151875;
+}
+
+
+.latest-content{
+  display: flex;
+ gap: 20px;
+  padding: 19px 62px 0 0;
+  margin-bottom: 62px;
+  justify-content: center;
+  color: #151875;
+  text-align: center;
+  flex-direction: column;
+}
+.latest-nav{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card img{
+  background-color: #EEEFFB;
+  padding: 30px 70px;
+  object-fit: cover;
+  width: 350px;
+  height: 270px;
+ 
+  
+}
+.sale{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-family: Josefin Sans;
+
+
+}
+
+.old-price {
+  text-decoration-line: line-through;
+  color: red;
+  font-size: smaller;
+}
+.latest-item-top {
+ 
+  justify-items: flex-start;
+  padding-bottom: 125px;
+}
+
+
+  
+
+/*end latest section */
+
 /*start newsletter*/
 
 .newsletter {
